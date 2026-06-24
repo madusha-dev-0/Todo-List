@@ -93,10 +93,10 @@
     margin: 10px;
 }
 
-#divcontainer {
+#div-container {
     height: 40px;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     gap: 10px;
     border-radius: 10px;
@@ -108,6 +108,20 @@
     height: 20px;
     border: none;
 
+}
+
+#delete-icon{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color:#A45EE9;
+    border-radius: 50px;
+    margin-right: 5px;
+    background-image: url("/icons/delete.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    cursor: pointer;
 }
 
 #side-bar {
